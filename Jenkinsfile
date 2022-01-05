@@ -39,6 +39,6 @@ node{
    {
          sleep(time:5,unit:"SECONDS") 
          bat "${tomcatBin}\\startup.bat start"
-         sleep(time:200,unit:"SECONDS")
+         sleep(time:100,unit:"SECONDS")
    }
 }
